@@ -29,7 +29,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test:accessibility": "pa11y-ci --config .pa11yci.json"
+    "test:accessibility": "pa11y-ci --config .pa11yci.json",
+    "type-coverage": "type-coverage --strict --detail --ignore-catch"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.10.0",
@@ -51,5 +52,8 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.1.1"
+  },
+  "typeCoverage": {
+    "atLeast": 90
   }
 }
