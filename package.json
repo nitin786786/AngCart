@@ -15,7 +15,7 @@
     "core-js": "2.6.9",
     "jasmine-core": "2.99.1",
     "jasmine-marbles": "0.6.0",
-    "pa11y-ci": "^2.3.0",
+    "pa11y-ci": "^2.4.2",
     "rxjs": "6.5.3",
     "tslib": "1.10.0",
     "type-coverage": "^2.3.0",
